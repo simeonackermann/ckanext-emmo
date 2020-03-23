@@ -69,6 +69,10 @@ class EmmoAPProfile(RDFProfile):
         # Basic fields
         self._basic_fields_graph(dataset_ref, dataset_dict)
 
+        #
+        # TODO add Catalog, Groups, Tags, ...
+        #
+
         # Publisher
         # self._publisher_graph(dataset_ref, dataset_dict)
 
@@ -91,6 +95,10 @@ class EmmoAPProfile(RDFProfile):
 
             # test, add state
             ('state', SCHEMA.state, ['state'], Literal),
+
+            #
+            # TODO add EMMO fields here...
+            #
         ]
         self._add_triples_from_dict(dataset_dict, dataset_ref, items)
 
