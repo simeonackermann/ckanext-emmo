@@ -2,7 +2,7 @@
 ckanext-emmo
 =============
 
-Extend the [ckanext-dcat](https://github.com/ckan/ckanext-harvest) RDF DCAT endpoints with the [EMMO](https://github.com/emmo-repo/EMMO) RDF ontology profile.
+Extend the [ckanext-dcat](https://github.com/ckan/ckanext-dcat) RDF DCAT endpoints with the [EMMO](https://github.com/emmo-repo/EMMO) RDF ontology profile.
 
 This plugin is in a very early state to survey the feasibility of an RDF mapping from CKAN datasets to the EMMO ontology. Currently no EMMO fields are implemented.
 
@@ -10,13 +10,13 @@ This plugin is in a very early state to survey the feasibility of an RDF mapping
 Requirements
 ------------
 
-Requires the [ckanext-dcat](https://github.com/ckan/ckanext-harvest) plugin.
+Requires the [ckanext-dcat](https://github.com/ckan/ckanext-dcat) plugin.
 
 ------------
 Installation
 ------------
 
-Install [ckanext-dcat](https://github.com/ckan/ckanext-harvest) first.
+Install [ckanext-dcat](https://github.com/ckan/ckanext-dcat) first.
 
 To install ckanext-emmo:
 
